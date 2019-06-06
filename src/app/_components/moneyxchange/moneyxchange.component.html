@@ -1,0 +1,99 @@
+<body class="landing-body">
+  <div class="landing-wrapper">
+    <div id="header">
+      <div class="header-top">
+        <img src="assets/logo.jpg" class="logo" />
+
+        <div class="header-content">
+          <ul class="landing-menu">
+            <li>
+              <a>Option 1</a>
+            </li>
+            <li>
+              <a>Option 2</a>
+            </li>
+            <li>
+              <a>Option 3</a>
+            </li>
+            <li>
+              <a>Option 4</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <div class="space-feature">
+      <div id="feature">
+        <div class="ui-g">
+          <div class="ui-g-12 ui-md-6 ui-lg-6">
+            <input type="text" pInputText [(ngModel)]="base" placeholder="EUR" (keyup)="formatCurrency()" />
+          </div>
+          <div class="ui-g-12 ui-md-6 ui-lg-6">
+            <input type="text" pInputText [(ngModel)]="exchange" [disabled]="true" placeholder="USD" />
+          </div>
+          <div class="ui-g-12 ui-md-12 ui-lg-12">
+            <button type="button" pButton label="CALCULATE" class="ui-button-secondary" (click)="onCalculate()"
+              [disabled]="base === undefined || base === ''"></button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div id="footer">
+      <div class="ui-g">
+        <div class="ui-g-12 ui-md-8">
+          <ul class="landing-menu">
+            <div class="ui-g">
+              <div class="ui-g-12 ui-md-4" style="text-align:center">
+                <li>
+                  <a style="color: #797979;">Title 1</a>
+                </li>
+                <li>
+                  <a>Option 1</a>
+                </li>
+                <li>
+                  <a>Option 2</a>
+                </li>
+                <li>
+                  <a>Option 3</a>
+                </li>
+              </div>
+              <div class="ui-g-12 ui-md-4" style="text-align:center">
+                <li>
+                  <a style="color: #797979;">Title 2</a>
+                </li>
+                <li>
+                  <a>Option 1</a>
+                </li>
+                <li>
+                  <a>Option 2</a>
+                </li>
+                <li>
+                  <a>Option 3</a>
+                </li>
+              </div>
+              <div class="ui-g-12 ui-md-4" style="text-align:center">
+                <li>
+                  <a style="color: #797979;">Title 3</a>
+                </li>
+                <li>
+                  <a>Option 1</a>
+                </li>
+                <li>
+                  <a>Option 2</a>
+                </li>
+                <li>
+                  <a>Option 3</a>
+                </li>
+              </div>
+            </div>
+          </ul>
+        </div>
+        <div class="ui-g-12 ui-md-4">
+          <img src="assets/logo.jpg" class="logo" />
+        </div>
+      </div>
+    </div>
+  </div>
+</body>

@@ -1,0 +1,276 @@
+.landing-body {
+  background: #ffffff;
+}
+.landing-body .section-button {
+  padding: 0.429em 0.857em;
+  background-color: #337ab7;
+  color: #ffffff;
+  text-align: center;
+  border: 0 none;
+  font-size: 14px;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif,
+    "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  -moz-border-radius: 4px;
+  -webkit-border-radius: 4px;
+  border-radius: 4px;
+}
+.landing-body .section-button:hover {
+  background-color: #2d6da3;
+  cursor: pointer;
+}
+.landing-body .section-button:focus {
+  background-color: #2d6da3;
+  outline: 0 none;
+}
+.landing-body .landing-menu {
+  list-style-type: none;
+  margin: 30px 0 0 0;
+  padding: 0;
+  //   float: left;
+  text-align: center;
+}
+.landing-body .landing-menu li {
+  display: inline-block;
+  font-size: 16px;
+  margin-left: 36px;
+}
+.landing-body .landing-menu li:first-child {
+  margin-left: 0;
+}
+.landing-body .landing-menu li a {
+  color: #acacac;
+  border-bottom: 1px solid transparent;
+  -moz-transition: border 0.3s;
+  -o-transition: border 0.3s;
+  -webkit-transition: border 0.3s;
+  transition: border 0.3s;
+}
+.landing-body .landing-menu li a:hover {
+  border-bottom: 1px solid #a0a0a0;
+}
+.landing-body .landing-wrapper #header {
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  box-shadow: 0 10px 10px 0 rgba(0, 0, 0, 0.1);
+}
+.landing-body .landing-wrapper #header .header-top {
+  width: 1200px;
+  margin: 0 auto;
+  padding-top: 40px;
+}
+.landing-body .landing-wrapper #header .header-top .logo {
+  position: absolute;
+  left: 50%;
+  margin-left: -45px;
+  width: 90px;
+  border-radius: 50%;
+  box-shadow: 0 0 3px 1px rgba(0, 0, 0, 0.1);
+}
+.landing-body .landing-wrapper #header .header-top .sign-up-buttonpane {
+  float: right;
+  margin: 30px 0 0 0;
+}
+.landing-body .landing-wrapper #header .header-top .sign-up-buttonpane button {
+  min-width: 100px;
+  padding: 5px 10px;
+  border: 1px solid #ffffff;
+  background: transparent;
+  cursor: pointer;
+  color: #ffffff;
+  border-radius: 4px;
+  font-size: 16px;
+  margin-right: 20px;
+}
+.landing-body .landing-wrapper #header .header-top .sign-up-buttonpane button:hover {
+  background-color: #ffffff;
+  color: #434560;
+}
+.landing-body .landing-wrapper #header .header-content {
+  width: 1200px;
+  margin: 0 auto;
+  text-align: center;
+  padding: 100px 150px 50px 150px;
+  color: #acacac;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+.landing-body .landing-wrapper #header .header-content h1 {
+  font-size: 28px;
+  font-weight: 400;
+}
+.landing-body .landing-wrapper #header .header-content h2 {
+  font-size: 22px;
+  font-weight: 300;
+  margin-bottom: 30px;
+}
+.landing-body .landing-wrapper #header .header-content button {
+  width: 170px;
+}
+.landing-body .landing-wrapper .space-feature {
+  padding: 5px 0 30px;
+}
+.landing-body .landing-wrapper #feature {
+  background-color: #dadfe3;
+  box-shadow: 0 0 2px 5px rgba(0, 0, 0, 0.3);
+}
+.landing-body .landing-wrapper #feature > div {
+  width: 1200px;
+  margin: 0 auto;
+  text-align: center;
+  padding: 60px 0 75px 0;
+  color: #292b2c;
+}
+.landing-body .landing-wrapper #feature > div div {
+  padding: 1.7em 0;
+}
+.landing-body .landing-wrapper #feature .ui-g {
+  padding: 75px 40px 10px;
+}
+.landing-body .landing-wrapper #feature > div input {
+  width: 90%;
+}
+.landing-body .landing-wrapper #feature > div input::-webkit-input-placeholder {
+  text-align: center;
+}
+.landing-body .landing-wrapper #feature > div input:-moz-placeholder {
+  /* Firefox 18- */
+  text-align: center;
+}
+.landing-body .landing-wrapper #feature > div input::-moz-placeholder {
+  /* Firefox 19+ */
+  text-align: center;
+}
+.landing-body .landing-wrapper #feature > div input:-ms-input-placeholder {
+  text-align: center;
+}
+.landing-body .landing-wrapper #feature > div button {
+  width: 40%;
+  padding: 14px 12px;
+}
+.landing-body .landing-wrapper #footer {
+  padding: 40px 0;
+  background-color: #dadfe3;
+  border: solid 1px #dee4e9;
+}
+.landing-body .landing-wrapper #footer .social-icons {
+  font-size: 36px;
+  vertical-align: middle;
+  text-align: right;
+}
+.landing-body .landing-wrapper #footer .social-icons a {
+  color: #ffffff;
+}
+.landing-body .landing-wrapper #footer > div {
+  width: 1200px;
+  margin: 0 auto;
+  text-align: left;
+}
+.landing-body .landing-wrapper #footer > div img {
+  width: 120px;
+  margin-bottom: 10px;
+  border-radius: 50%;
+}
+.landing-body .landing-wrapper #footer > div span {
+  color: #cccccc;
+  line-height: 1.5;
+}
+.landing-body .landing-wrapper #footer > div .footer-newsletter a {
+  position: relative;
+}
+.landing-body .landing-wrapper #footer > div .footer-newsletter input {
+  width: 180px;
+}
+.landing-body .landing-wrapper #footer > div .footer-newsletter .input-icon {
+  position: absolute;
+  right: 5px;
+  top: 0;
+  color: #3e9018;
+  font-size: 18px;
+}
+.landing-body .landing-wrapper #footer > div .landing-menu {
+  float: none;
+  margin: 0;
+  margin-left: 130px;
+}
+.landing-body .landing-wrapper #footer > div .landing-menu li {
+  display: block;
+  margin: 0;
+  text-align: left;
+  line-height: 1.5;
+}
+.landing-body .landing-wrapper #footer > div .landing-menu li a {
+  color: #acacac;
+  border-bottom: 1px solid transparent;
+  -moz-transition: border 0.3s;
+  -o-transition: border 0.3s;
+  -webkit-transition: border 0.3s;
+  transition: border 0.3s;
+}
+.landing-body .landing-wrapper #footer > div .landing-menu li a:hover {
+  color: #a0a0a0;
+  background-color: transparent;
+}
+
+@media (max-width: 1200px) {
+  .landing-body {
+    background: #ffffff;
+  }
+  .landing-body .landing-menu {
+    float: none;
+    margin-left: -10px;
+  }
+  .landing-body .landing-menu li {
+    font-size: 16px;
+    margin-left: 16px;
+  }
+  .landing-body .landing-wrapper #header .header-top {
+    width: 100%;
+  }
+  .landing-body .landing-wrapper #header .header-top .sign-up-buttonpane {
+    position: absolute;
+    float: none;
+    left: 50%;
+    margin-left: -76px;
+    top: 200px;
+  }
+  .landing-body .landing-wrapper #header .header-content {
+    width: 100%;
+    padding: 100px 30px 50px;
+  }
+  .landing-body .landing-wrapper #feature {
+    padding: 0 10px;
+  }
+  .landing-body .landing-wrapper #feature .ui-g {
+    padding: 75px 0 10px;
+  }
+  .landing-body .landing-wrapper #feature > div {
+    width: 100%;
+  }
+  .landing-body .landing-wrapper #feature > div div {
+    padding: 1em 0;
+  }
+  .landing-body .landing-wrapper #feature > div input {
+    width: 100%;
+  }
+  .landing-body .landing-wrapper #feature > div button {
+    width: 100%;
+  }
+  .landing-body .landing-wrapper #footer > div {
+    width: 100%;
+    text-align: left;
+    padding: 0 50px;
+  }
+  .landing-body .landing-wrapper #footer > div .social-icons {
+    text-align: center;
+  }
+  .landing-body .landing-wrapper #footer > div ul {
+    display: none;
+  }
+}
+@media (max-width: 720px) {
+  .landing-body .landing-wrapper #footer > div {
+    text-align: center;
+  }
+}
